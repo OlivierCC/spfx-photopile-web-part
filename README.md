@@ -50,10 +50,23 @@ or on a developer site. Please follow the tutorials in the SPFx tutorial to know
 
 You can also test this web part directly as SharePoint App (spapp package).
 
-**Please note that the SharePoint Framework (SPFx) is currently in public preview, so this kind of client side web part are not supported in a production site.**
+_**IMPORTANT: Please note that the SharePoint Framework (SPFx) is currently in public preview, so this kind of client side web part are not supported in a production site.**_
 
 To test the web part on a SharePoint site, follow this steps :
 
 1. Download the [photopile-web-part.spapp](./sharepoint/photopile-web-part.spapp) on your desktop
 2. Connect on your tenant with a SharePoint Online administor account, and go in the App Catalog web site
-3. Insert the web part in your tenant App catalog (drag & drop the photopile-web-part.spapp in the "App for SharePoint" list
+3. Insert the web part in your tenant App catalog (drag & drop the photopile-web-part.spapp in the "App for SharePoint" list and click to "Deploy" in the popin window. The App must appear in your list
+[Photopile App in the App Catalog](./assets/tutorial-add-spapp-01.png)
+4. Go to a SharePoint web site (for example the developer site), and go to the "Site contents" web page. Click on "New" and "Add app"
+5. In the apps search page, search "Photopile" and click on the App to install it
+[Add the web part](./assets/tutorial-add-spapp-02.png)
+6. When the app is deployed, go to a SharePoint page, click on edit, and insert the "Photopile" webpart from the Custom group:
+7. Edit the web part properties, and click on "Configure button" in the web part properties
+[Configure the web part](./assets/tutorial-add-spapp-03.png)
+8: Now you can modify the Client side web part properties to select a pics lib and view the result
+[Photpile Web Part properties panel](./assets/tutorial-add-spapp-04.png)
+
+_Note: be sure to have Picture Lis in your site, if not, create it and upload images inside._
+
+
