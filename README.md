@@ -43,10 +43,12 @@ If you are a SharePoint web developer, you can be interested by the following co
 * Render content with React
 * Etc.
 
-## How to use it
+## How to use it in the local or the SharePoint workbench
 
 By compiling this code on a configured workstation, you can test this web part on your local SharePoint workbench
 or on a developer site. Please follow the tutorials in the SPFx tutorial to know the process : https://github.com/SharePoint/sp-dev-docs/wiki/Setup-SharePoint-Tenant
+
+## How to use it in a SharePoint site as a SPApp
 
 You can also test this web part directly as SharePoint App (spapp package).
 
@@ -65,7 +67,7 @@ To test the web part on a SharePoint site, follow this steps :
 7. Edit the web part properties, and click on "Configure button" in the web part properties
 ![Configure the web part](./assets/tutorial-add-spapp-03.png)
 8: Now you can modify the Client side web part properties to select a pics lib and view the result
-![Photpile Web Part properties panel](./assets/tutorial-add-spapp-04.png)
+![Photpile Web Part properties panel](./assets/tutorial-add-spapp-05.png)
 
 _Note: be sure to have Picture Lis in your site, if not, create it and upload images inside._
 
