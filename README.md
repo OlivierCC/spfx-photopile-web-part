@@ -1,26 +1,18 @@
-## photopile-web-part
+## Photopile Web Part
 
-This is where you include your web part docs.
 
-### Building the code
+
+### Run this web part
 
 ```bash
 git clone the repo
 npm i
-npm i -g gulp
-gulp
+tsd install
+gulp serve
 ```
 
-This package produces the following:
+### Features
 
-* lib/* commonjs components - this allows this package to be reused from other packages.
-* dist/* - a single bundle containing the components used for uploading to a cdn pointing a registered Sharepoint webpart library to.
-* example/* a test page that hosts all components in this package.
+The photopile-web-part project is a SharePoint web part built using the SharePoint Framework (SPFx) in the preview version.
+This project implements the great [Photopile.Js](https://github.com/bigbhowell/Photopile-JS) popular jquery script as a client side web part for SharePoint.
 
-### Build options
-
-gulp nuke - TODO
-gulp test - TODO
-gulp watch - TODO
-gulp build - TODO
-gulp deploy - TODO
