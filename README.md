@@ -8,7 +8,7 @@ With this Web Part, you can display the photos contained in a SharePoint Picture
 simulates a pile of photos scattered about on a surface. Thumbnail clicks remove photos from the pile,
 (enlarging them as if being picked up by the user), and once in  view a secondary click returns the photo to the pile.
 
-![Photpile Web Part displayed in SharePoint Workbench](./assets/photopile-overview.gif)
+![Photpile Web Part displayed in SharePoint Workbench](./assets/photopileoverview.gif)
 
 ## Run this web part in the SharePoint workbench
 
