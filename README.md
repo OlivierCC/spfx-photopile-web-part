@@ -24,7 +24,8 @@ station, you can consult the following tutorial: https://github.com/SharePoint/s
 
 ## Features
 
-This web part uses React, Office UI Fabric, JQuery, JQuery UI and Photopile.js.
+This web part uses React, Office UI Fabric, JQuery, JQuery UI and Photopile.js. This web part is available in English (en-us)
+and French (fr-fr). You can use this web part with SharePoint Online (Office 365) or SharePoint Server 2016.
 
 It is able to:
 * List Picture Libs contained in the current SharePoint web site
@@ -32,6 +33,17 @@ It is able to:
 * Render the pics as a cool photopile
 * Personalize the layout thanks to editable settings
 
+If you are a SharePoint web developer, you can be interested by the following code patterns :
+* Include JQuery and external framework in your solution
+* Implement rich web part properties panel with controls like DropDown, Sliders, Toggle, etc.
+* Load dynamic data from SharePoint as web part properties
+* Load dynamic data from SharePoint REST Services, as lists or items
+* Implement mock system to test your solution in the local workbench or on a SharePoint site
+* Include Office UI Fabric controls in your project
+* Render content with React
+* Etc.
+
 ## How to use it
 
+By compiling this code on a configured workstation, you can test this web part
 
