@@ -52,4 +52,8 @@ You can also test this web part directly as SharePoint App (spapp package).
 
 **Please note that the SharePoint Framework (SPFx) is currently in public preview, so this kind of client side web part are not supported in a production site.**
 
+To test the web part on a SharePoint site, follow this steps :
 
+1. Download the ![photopile-web-part.spapp](./sharepoint/photopile-web-part.spapp) on your desktop
+2. Connect on your tenant with a SharePoint Online administor account, and go in the App Catalog web site
+3. Insert the web part in your tenant App catalog (drag & drop the photopile-web-part.spapp in the "App for SharePoint" list
