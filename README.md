@@ -45,5 +45,11 @@ If you are a SharePoint web developer, you can be interested by the following co
 
 ## How to use it
 
-By compiling this code on a configured workstation, you can test this web part
+By compiling this code on a configured workstation, you can test this web part on your local SharePoint workbench
+or on a developer site. Please follow the tutorials in the SPFx tutorial to know the process : https://github.com/SharePoint/sp-dev-docs/wiki/Setup-SharePoint-Tenant
+
+You can also test this web part directly as SharePoint App (spapp package).
+
+**Please note that the SharePoint Framework (SPFx) is currently in public preview, so this kind of client side web part are not supported in a production site.**
+
 
