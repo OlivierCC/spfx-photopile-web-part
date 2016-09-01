@@ -22,7 +22,7 @@ import { IPhotopileWebPartProps } from './IPhotopileWebPartProps';
 import PhotopileWebPart from './components/PhotopileWebPart';
 import { IPhotopileWebPartWebPartProps } from './IPhotopileWebPartWebPartProps';
 import { SPPicturesListService } from './SPPicturesListService';
-import { ISPList } from './ISPList.ts';
+import { ISPList } from './ISPList';
 
 /**
  * @class

@@ -4,7 +4,7 @@
  *
  * Author: Olivier Carpentier
  */
-import { ISPLists, ISPListItems, ISPListItem } from './ISPList.ts';
+import { ISPLists, ISPListItems, ISPListItem } from './ISPList';
 import { IWebPartContext } from '@microsoft/sp-client-preview';
 import { IPhotopileWebPartProps } from './IPhotopileWebPartProps';
 import { EnvironmentType } from '@microsoft/sp-client-base';
