@@ -68,7 +68,7 @@ To test the web part on a SharePoint site, follow this steps :
 6. When the app is deployed, go to a SharePoint page, click on edit, and insert the **Photopile** webpart from the **Custom** group:
 ![Configure the web part](./assets/tutorial-add-spapp-03.png)
 7. Edit the web part properties, and click on **Configure** button in the web part properties
-8: Now you can modify the Client side web part properties to select a pics lib and view the result
+8. Now you can modify the Client side web part properties to select a pics lib and view the result
 ![Photpile Web Part properties panel](./assets/tutorial-add-spapp-05.png)
 
 _Note: be sure to have Picture Lis in your site, if not, create it and upload images inside._
