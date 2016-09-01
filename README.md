@@ -10,6 +10,8 @@ simulates a pile of photos scattered about on a surface. Thumbnail clicks remove
 
 ![Photpile Web Part displayed in SharePoint Workbench](./assets/photopileoverview.gif)
 
+> Note: The SharePoint Framework is currently in preview and is subject to change. SharePoint Framework client-side web parts are not currently supported for use in production enviornments.
+
 ## Run this web part in the SharePoint workbench
 
 ```bash
