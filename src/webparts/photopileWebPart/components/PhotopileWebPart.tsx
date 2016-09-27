@@ -66,7 +66,7 @@ export default class PhotopileWebPart extends React.Component<IPhotopileWebPartP
         <div className="ms-MessageBar">
           <div className="ms-MessageBar-content">
             <div className="ms-MessageBar-icon">
-              <i className="ms-Icon ms-Icon--infoCircle"></i>
+              <i className="ms-Icon ms-Icon--Info"></i>
             </div>
             <div className="ms-MessageBar-text">
               {strings.ErrorSelectList}
@@ -95,7 +95,7 @@ export default class PhotopileWebPart extends React.Component<IPhotopileWebPartP
           <div className="ms-MessageBar ms-MessageBar--error">
             <div className="ms-MessageBar-content">
               <div className="ms-MessageBar-icon">
-                <i className="ms-Icon ms-Icon--xCircle"></i>
+                <i className="ms-Icon ms-Icon--ErrorBadge"></i>
               </div>
               <div className="ms-MessageBar-text">
                 {strings.ErrorNoItems}

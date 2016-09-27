@@ -14,20 +14,9 @@
     "react": "node_modules/react/dist/react.min.js",
     "react-dom": "node_modules/react-dom/dist/react-dom.min.js",
     "react-dom/server": "node_modules/react-dom/dist/react-dom-server.min.js",
-    "jquery": {
-      "path": "node_modules/jquery/dist/jquery.js",
-      "globalName": "$"
-    },
-    "jqueryui": {
-      "path": "node_modules/jqueryui/jquery-ui.js",
-      "globalName": "jqueryui",
-      "globalDependencies": ["jquery"]
-    },
-    "photopileModule": {
-     "path": "src/webparts/photopileWebPart/js/photopile.js",
-     "globalName": "photopileModule",
-     "globalDependencies": ["jquery", "jqueryui"]
-    }
+    "jquery": "node_modules/jquery/dist/jquery.js",
+    "jqueryui": "node_modules/jqueryui/jquery-ui.js",
+    "photopileModule": "src/webparts/photopileWebPart/js/photopile.js"
   },
   "localizedResources": {
     "mystrings": "webparts/photopileWebPart/loc/{locale}.js"
